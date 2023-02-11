@@ -63,7 +63,7 @@ public class DaysIfElse {
 
             case 7:
                 System.out.println("Bugün günlerden cuma");
-                9
+
                 break;
 
             default:
