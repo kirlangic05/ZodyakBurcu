@@ -18,103 +18,105 @@ public class FindHoroscope {
             } else {
                 burc = "Kova";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 2) {
+        if (month == 2) {
             if ((day >= 1) && (day <= 19)) {
                 burc = "Kova";
             } else {
                 burc = "Balık";
             }
 
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 3) {
+        if (month == 3) {
             if ((day >= 1) && (day <= 20)) {
                 burc = "Balık";
             } else {
                 burc = "Koç";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 4) {
+        if (month == 4) {
             if ((day >= 1) && (day <= 20)) {
                 burc = "Koç";
             } else {
                 burc = "Boğa";
             }
-        }if (month == 5) {
+        }
+        if (month == 5) {
             if ((day >= 1) && (day <= 21)) {
                 burc = "Boğa";
             } else {
                 burc = "İkizler";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 6) {
+        if (month == 6) {
             if ((day >= 1) && (day <= 22)) {
                 burc = "İkizler";
             } else {
                 burc = "Yengeç";
             }
 
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 7) {
+        if (month == 7) {
             if ((day >= 1) && (day <= 22)) {
                 burc = "Yengeç";
             } else {
                 burc = "Aslan";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 8) {
+        if (month == 8) {
             if ((day >= 1) && (day <= 22)) {
                 burc = "Aslan";
             } else {
                 burc = "Başak";
             }
-        }if (month == 9) {
+        }
+        if (month == 9) {
             if ((day >= 1) && (day <= 22)) {
                 burc = "Başak";
             } else {
                 burc = "Terazi";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 10) {
+        if (month == 10) {
             if ((day >= 1) && (day <= 22)) {
                 burc = "Terazi";
             } else {
                 burc = "Akrep";
             }
 
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 11) {
+        if (month == 11) {
             if ((day >= 1) && (day <= 21)) {
                 burc = "Akrep";
             } else {
                 burc = "Yay";
             }
-        }else{
+        } else {
             System.out.println("HATA!");
         }
-         if (month == 12) {
+        if (month == 12) {
             if ((day >= 1) && (day <= 21)) {
                 burc = "Yay";
             } else {
                 burc = "Oğlak";
             }
         }
-        System.out.println("Burcunuz : "+burc);
+        System.out.println("Burcunuz : " + burc);
     }
 }
