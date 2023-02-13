@@ -39,13 +39,7 @@ public class KullaniciGirisi {
                    System.out.println("Geçersiz işlem girildi.");
            }
 
-            /*if (select == 1) {
-                System.out.println("Yeni şifrenizi girin : ");
-                newPassword = inp.nextLine();
-                System.out.println("Yeni şifreniz : " + newPassword);
-            } else {
-                System.out.println("Sistem kapanıyor..");
-            }*/
+
         }
 
     }
